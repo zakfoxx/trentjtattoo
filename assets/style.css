@@ -6,5 +6,28 @@
 #header {
 }
 .artwork {
-  display: flexbox;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  width: 100%;
+}
+
+img {
+  min-width: 200px;
+  max-width: 500px;
+}
+
+h1 {
+}
+
+#banner {
+  display: flex;
+  color: white;
+  background-image: url("./assets/images/headerphoto.png");
+  height: 300px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+li {
+  font-size: larger;
 }
