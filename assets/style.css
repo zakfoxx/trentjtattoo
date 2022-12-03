@@ -1,0 +1,10 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+#header {
+}
+.artwork {
+  display: flexbox;
+}
